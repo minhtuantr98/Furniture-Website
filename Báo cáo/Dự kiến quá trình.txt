@@ -1,0 +1,22 @@
+1) Xây dựng database
+2) Xây dựng frontend:
+2.1)Giao diện user : 
+ +) Trang chủ ( show những sản phẩm nổi bật) 
+ +) Trang tìm kiếm ( thể loại ) 
++ ) Trang chi tiết sản phẩm 
++) Trang thông tin người dùng ( bao gồm đơn hàng ) 
++) Trang giỏ hàng của người dùng : 
++) Trang thanh toán 
++) Trang giới thiệu công ty
+2.2)Giao diện admin:
++) Giao diện để quản lý khách hàng, đơn hàng
++) Giao diện thống kê báo cáo 
++) Giao diện thêm sửa xóa sản phẩm
++) Giao diện quản lý nhận xét 
+3)Xây dựng Backend :
++) Xử lý check link lỗi ( note của thầy) 
++) Xử lý check quyền admin,user:
++) Xử lý logic thêm sửa xóa sản phẩm, đơn hàng trong admin (laravel)
++) Xử lý logic show data (bao gồm cả tìm kiếm) lên giao diện bằng ajax js ( nhanh và thực tế )
++) Xử lý lưu giỏ hàng ở session ( hoặc local storage or db ) đang phân vân ?
++) Xử lý thanh toán trực tuyến với sandbox paypal or gocardless
